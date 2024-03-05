@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 import Jumbotron from "./components/Jumbotron"
 import Navbar from "./components/Navbar"
 import "./index.css"
+import asetgue from  "./src/assets/computers.jpg"
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Jumbotron/>
         <Education/>
         <Footer/>
+        <img src={asetgue} alt="background" />
       </div>
     </>
   )
